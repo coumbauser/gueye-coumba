@@ -1,0 +1,55 @@
+body{
+    background-color: #53349c;
+}
+.content{
+    margin: 0 auto;
+    background-color: #fbc2c8;
+    width: 70%;
+    padding: 40px 35px;
+}
+h1{
+    text-align: center;
+    color: #53349c;
+}
+.box{
+    flex-grow: 1;
+    flex-basis: 300px;
+    background: #fff;
+    border-radius: 7px;
+    text-align: center;
+    height: 17vh;
+    float: right;
+}
+.infos{
+    display: flex;
+    flex-wrap: wrap;                                                                                                                                                                       
+    gap: 20px;
+}
+.box i{
+    margin: 1rem;
+    color: #53349c;
+}
+.form{
+    padding-top: 5px;
+}
+.input-form input,
+textarea{
+    width: 100%;
+    border: none;
+}
+.input-form input{
+    height: 40px;
+}
+.btn-group button{
+    padding-top:  20px;
+    gap: 10px;
+    width: 101%;
+    color: white;
+    background-color: #53349c;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    height: 43px;
+    padding: 10px;
+
+}
